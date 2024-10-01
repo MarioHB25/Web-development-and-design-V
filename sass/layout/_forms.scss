@@ -1,0 +1,18 @@
+.categories {
+    display: flex;
+    margin-top: 90px;
+}
+
+.categories article {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    p {
+        color: $font-color2;
+    }
+}
+
+.categories article img {
+    width: 80px;
+}

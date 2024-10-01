@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Vite Project Sass</title>
+
+    <link rel="stylesheet" href="./sass/style.scss">
+    <link rel="stylesheet" href="./sass/style.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="./img/FinestMart.svg" alt="FinesMart Logo" class="logo-img">
+        </div>
+        
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="btn">
+          <a class="bag" href="#"></a>
+          <a class="in" href="#">Sign In</a>
+          <a class="up" href="#">Sign Up</a>
+        </div>
+        
+      </header>
+
+      <section class="hero">
+        <div class="hero-info">
+          <h1 class="hero-info-tittle">Let your <span>groceries</span> come to you</h1>
+          
+          <p class="hero-info-text">Get fresh groceries online without stepping out to make delicious food with the freshest ingredients</p>
+          
+          <div class="hero-info-input">
+            <input type="text" placeholder="Search here">
+            <button><img src="./img/Search.svg" alt="" class="search"></button>
+          </div>
+          
+          <div class="checks">
+            <div>
+              <img src="./img/Check.svg" alt="">
+              <p class="text">Fresh Vegetables</p>
+            </div>
+
+            <div>
+              <img src="./img/Check.svg" alt="">
+              <p class="text">100% Guarantee</p>
+            </div>
+            
+            <div>
+              <img src="./img/Check.svg" alt="">
+              <p class="text">Cash on Delivery</p>
+            </div>
+            
+            <div>
+              <img src="./img/Check.svg" alt="">
+              <p class="text">Fast Delivery</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="./img/hero-img.png" alt="" width="966" height="644">
+        </div>
+      </section>
+
+      <section class="categories">
+        <article>
+          <img src="./img/Dairy.svg" alt="">
+          <h3>Dairy Products</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <article>
+          <img src="./img/Fruits.svg" alt="">
+          <h3>Vegetables & Fruits</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <article>
+          <img src="./img/Condiments.svg" alt="">
+          <h3>Spices & Seasonings</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <article>
+          <img src="./img/Babyfood.svg" alt="">
+          <h3>Honey</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <article>
+          <img src="./img/spices.svg" alt="">
+          <h3>Flour</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+      </section>
+      
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

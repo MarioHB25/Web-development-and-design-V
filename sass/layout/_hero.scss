@@ -1,0 +1,80 @@
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: visible;
+
+}
+
+.hero-img img {
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    z-index: -1;
+}
+
+.hero-info h1 {
+    font-family: $secondary-font;
+    font-size: 60px;
+    font-weight: 700;
+    overflow: visible;
+    line-height: 70px;
+    width: 600px;
+    padding-bottom: 15px;
+    span {
+        color: $orange;
+    }
+}
+
+.hero-info-text {
+    font-size: 15px;
+    color: $font-color2;
+    width: 400px;
+    padding-bottom: 45px;
+
+}
+
+.hero-info-input {
+    display: flex;
+}
+.hero-info input {
+    width: 280px;
+    height: 35px;
+    background-color: #F3F3F4;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    &::placeholder {
+        padding-left: 10px;
+    }
+}
+
+.hero-info-input button {
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+
+}
+.hero-info .search {
+    background-color: $orange;
+    padding: 5px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} 
+
+.checks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 60px;
+    width: 420px;
+    row-gap: 25px;
+}
+
+.checks div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

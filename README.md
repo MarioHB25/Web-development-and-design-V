@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #0366d6;">
-   Creative Company 🎨
+   Groceries Store 🥑🍅🧅
 </h1>
 
 <p>In this repository you will find a design and development project for a web page using HTML <img align="center" width="30" height="30" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="html5"/>, &nbsp;
@@ -17,13 +17,13 @@
    preview 📸
 </h2>
 
-<img src="preview/Creative Company.png" alt="Banner"/>
+<img src="preview/Groceries Store.png" alt="Banner"/>
 
 <h2 align="center" style="color: #0366d6;">
    Visit the web site on ⬇️
 </h2>
 
-<p align="center"><a align="center" href="https://mariohb25.github.io/Web-development-and-design-II/">Creative Company</a></p>
+<p align="center"><a align="center" href="https://mariohb25.github.io/Web-development-and-design-V/">Groceries Store</a></p>
 
 <br><br><br>
 
